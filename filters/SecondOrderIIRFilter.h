@@ -48,7 +48,7 @@
 #define __FILTER_OF_SECOND_ORDER__
 
 #include "../MacrosAndJuceHeaders.h"
-
+using namespace juce;
 //==============================================================================
 /** A second order IIR (infinite inpulse response) filter.
 
@@ -85,7 +85,7 @@ public:
     virtual void releaseResources();
 
     // Renders the next block.
-    void processBlock (AudioSampleBuffer& buffer);
+    void processBlock (juce::AudioSampleBuffer& buffer);
     
     void reset();
 

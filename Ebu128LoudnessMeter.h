@@ -72,9 +72,6 @@ public:
 //    const String getName ();
     
     /**
-     @param sampleRate
-     @param numberOfChannels
-     @param estimatedSamplesPerBlock
      @param expectedRequestRate         Assumption about how many times 
         a second the measurement values will be requested. Internally,
         this will be changed to a multiple of 10 because exactly every
